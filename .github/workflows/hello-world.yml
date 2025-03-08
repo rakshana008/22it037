@@ -1,9 +1,8 @@
 name: hello-world-rakshana
-on:push
+on: push
 jobs:
-  my job:
-    runs-on:ubuntu-latest
+  my-job:
+    runs-on: ubuntu-latest
     steps:
        - name: print your name
-         run: echo "Hello World - Rakshana"
-  
+         run: echo "Hello world - Rakshana"
