@@ -5,13 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: print your Register Number
-         run: echo "Hello world - 22it037"
-         
-       - name: checkout
-         uses: action/checkout@v4
-         
+         run: echo "Hello world - 22it037" 
+       - name: Checkout
+         uses: actions/checkout@v4
        - name: Docker Build
-         run: docker build -t rakshana008/ml-model-22it037 . 
-
+         run: docker build -t rakshana/ml-model-22it037 .
        - name: Docker Images
-         run: docker images 
+         run: docker images
